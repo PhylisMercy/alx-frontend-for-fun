@@ -1,0 +1,56 @@
+:root {
+    --color-box-1: #20cc6d;
+    --color-box-2: #2d98db;
+    --color-box-3: #4c5a68;
+    --color-box-4: #9d55b9;
+    --color-box-5: #e6841a;
+}
+
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    color: white;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: baseline;
+}
+
+.box1 {
+    background-color: var(--color-box-1);
+    font-size: 0.75rem;
+    height: 2.5rem;
+    width: 3rem;
+}
+
+.box2 {
+    background-color: var(--color-box-2);
+    font-size: 1.5rem;
+    height: 3.5rem;
+    width: 5rem;
+}
+
+.box3 {
+    background-color: var(--color-box-3);
+    font-size: 4rem;
+    height: 6rem;
+    width: 11rem;
+}
+
+.box4 {
+    background-color: var(--color-box-4);
+    font-size: 1.5rem;
+    height: 3.5rem;
+    width: 5rem;
+}
+
+.box5 {
+    background-color: var(--color-box-5);
+    font-size: 0.75rem;
+    height: 2.5rem;
+    width: 3rem;
+}
